@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // basePath: "/NewsHomepage",
+  basePath: "/NewsHomepage",
 };
 
 export default nextConfig;
