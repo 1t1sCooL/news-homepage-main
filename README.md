@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Vercel](https://news-homepage-main.vercel.app/)
+- Solution URL: [Vercel](https://news-homepage-main-gold.vercel.app/)
 - Live Site URL: [mmalabugin.ru/NewsHomepage/](https://mmalabugin.ru/NewsHomepage/)
 
 ## My process
