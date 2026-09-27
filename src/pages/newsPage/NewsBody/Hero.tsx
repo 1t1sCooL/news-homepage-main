@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 
 export default function Hero() {
@@ -11,13 +10,11 @@ export default function Hero() {
           media="(min-width: 768px)"
           srcSet={`${basePath}/images/image-web-3-desktop.jpg`}
         />
-        <Image
+        <img
           src={`${basePath}/images/image-web-3-mobile.jpg`}
           alt="Colourful 3D geometric blocks arranged around a central grid"
           width={686}
-          height={600}
-          priority
-        />
+          height={600}/>
       </picture>
 
       <h1 className="hero__title">
