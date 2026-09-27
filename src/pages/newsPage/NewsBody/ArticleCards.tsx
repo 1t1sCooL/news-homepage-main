@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 
 const ARTICLES = [
@@ -30,7 +29,7 @@ export default function ArticleCards() {
       {ARTICLES.map((article) => (
         <article key={article.number} className="card">
           <a href="#" className="card__image">
-            <Image
+            <img
               src={`${basePath}${article.image}`}
               alt={article.title}
               width={100}
